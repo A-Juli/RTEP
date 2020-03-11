@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMPU6050_static.a  CMakeFiles/MPU6050_static.dir/MPU6050.cpp.o
+/usr/bin/ranlib libMPU6050_static.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libMPU6050.so.1 -o libMPU6050.so.1 CMakeFiles/MPU6050.dir/MPU6050.cpp.o -lwiringPi 
