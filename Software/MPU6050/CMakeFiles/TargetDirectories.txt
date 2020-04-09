@@ -1,3 +1,0 @@
-/home/pi/Documents/MPU6050/CMakeFiles/MPU6050_static.dir
-/home/pi/Documents/MPU6050/CMakeFiles/MPU6050.dir
-/home/pi/Documents/MPU6050/Example/CMakeFiles/Demo.dir
