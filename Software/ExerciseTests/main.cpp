@@ -12,8 +12,8 @@ int main()
     
     // Exercise One
 
-    Test.setAccel1(0,0,1);
-    Test.setAccel2(0,0,1);
+    //Test.setAccel1(0,0,1);
+    //Test.setAccel2(0,0,1);
 
     //Instead of loop us a timer to call whichever Exercise every 50ms
     cout << "Beginning of Exercise 1" << endl; 
@@ -28,10 +28,10 @@ int main()
 
     //Exercise 2
 
-    Test.setAccel1(0,0,1);
-    Test.setAccel2(0,0,1);
-    Test.setAccel3(0,0,1);
-    Test.setAccel4(0,0,1);
+    //Test.setAccel1(0,0,1);
+    //Test.setAccel2(0,0,1);
+    //Test.setAccel3(0,0,1);
+    //Test.setAccel4(0,0,1);
 
     cout << "Beginning of Exercise 2" << endl;
     Test.Exercise2Setup();
@@ -41,6 +41,7 @@ int main()
     {
         Test.Exercise2();
         cout << "Angle between vectors: " << Test.Angle[0] << " : " << Test.Angle[1] << " : " << Test.Angle[2] <<  endl;
+        //cout << "Dot Product" << Test.DotProduct[0] << " : " << Test.DotProduct[1] << " : " << Test.DotProduct[2] << endl;
     }
 }
 
