@@ -16,16 +16,11 @@ int main()
     Test.setAccel2(0,0,1);
 
     //Instead of loop us a timer to call whichever Exercise every 50ms
-<<<<<<< HEAD
-    cout << "beginning of exercise 1" << endl; 
-    for(q=0;q < 10 ;q++)
-=======
     cout << "Beginning of Exercise 1" << endl; 
     Test.Exercise1Setup();
     cout << "Target Angle: " << Test.TargetAngle[0] << endl;
 
     for(q=0;q < 10;q++)
->>>>>>> master
     {
         Test.Exercise1();
         cout << "Angle between vectors: " << Test.Angle[0] << endl;

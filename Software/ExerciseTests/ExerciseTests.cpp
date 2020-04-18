@@ -2,6 +2,8 @@
 #include <math.h>
 #include "ExerciseTests.h"
 
+// Slight change because of qt error recognising variable...
+// Will change using the std:: in a bit...
 #define pie 3.14159265
 
 using namespace std;
@@ -39,13 +41,8 @@ double ExerciseTests::Exercise1(void)
     DotProduct[0] = Accel1[0]*Accel2[0] + Accel1[1]*Accel2[1] + Accel1[2]*Accel2[2];
     MagAccel1 = sqrt(Accel1[0]*Accel1[0]+Accel1[1]*Accel1[1]+Accel1[2]*Accel1[2]); 
     MagAccel2 = sqrt(Accel2[0]*Accel2[0]+Accel2[1]*Accel2[1]+Accel2[2]*Accel2[2]);
-<<<<<<< HEAD
-    Angle = acos(DotProduct/(MagAccel1*MagAccel2));
-    Angle = Angle*180/pie;
-=======
     Angle[0] = acos(DotProduct[0]/(MagAccel1*MagAccel2));
-    Angle[0] = Angle[0]*180/pi;
->>>>>>> master
+    Angle[0] = Angle[0]*180/pie;
 
     return DotProduct[0];
 }
