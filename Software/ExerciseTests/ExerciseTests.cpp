@@ -84,9 +84,9 @@ double ExerciseTests::Exercise2(void)
     Angle[1] = acos(DotProduct[1]/(MagAccel1*MagAccel2));
     Angle[2] = acos(DotProduct[2]/(MagAccel1*MagAccel2));
 
-    Angle[0] = Angle[0]*180/pi;
-    Angle[1] = Angle[1]*180/pi;
-    Angle[2] = Angle[2]*180/pi;
+    Angle[0] = Angle[0]*180/pie;
+    Angle[1] = Angle[1]*180/pie;
+    Angle[2] = Angle[2]*180/pie;
 
     return DotProduct[0];
 }
