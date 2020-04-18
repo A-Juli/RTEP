@@ -14,7 +14,7 @@ int main()
 
     //Instead of loop us a timer to call whichever Exercise every 50ms
     cout << "beginning of exercise 1" << endl; 
-    for(q=0;q < 10;q++)
+    for(q=0;q < 10 ;q++)
     {
         Test.Exercise1();
         cout << "Dot Product is : " << Test.DotProduct << endl;

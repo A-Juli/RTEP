@@ -1,11 +1,12 @@
-#include "mainwindow.h"
+#include "guiwindow.h"
 #include <QApplication>
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    QApplication YAGP_GUI(argc, argv);
 
-    return a.exec();
+    GUIWindow window;
+    window.show();
+
+    return YAGP_GUI.exec();
 }

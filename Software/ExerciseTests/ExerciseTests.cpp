@@ -2,7 +2,7 @@
 #include <math.h>
 #include "ExerciseTests.h"
 
-#define pi 3.14159265
+#define pie 3.14159265
 
 using namespace std;
 
@@ -25,7 +25,7 @@ double ExerciseTests::Exercise1(void)
     MagAccel1 = sqrt(Accel1[0]*Accel1[0]+Accel1[1]*Accel1[1]+Accel1[2]*Accel1[2]); 
     MagAccel2 = sqrt(Accel2[0]*Accel2[0]+Accel2[1]*Accel2[1]+Accel2[2]*Accel2[2]);
     Angle = acos(DotProduct/(MagAccel1*MagAccel2));
-    Angle = Angle*180/pi;
+    Angle = Angle*180/pie;
 
     return DotProduct;
 }
