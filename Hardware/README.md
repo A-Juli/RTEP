@@ -5,8 +5,8 @@ The Raspberry Pi model B+, a 6D sensor board design are the MPU6050 and a main b
 
 ## Overview
 This folder contains:
-*The main board which is based around the PCA9546AD I2C multiplexer
-*The MPU6050 (gyro/accelerometer) board 
+* The main board which is based around the PCA9546AD I2C multiplexer
+* The MPU6050 (gyro/accelerometer) board 
 
 ## Description 
 ### MPU6050 Board
