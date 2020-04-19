@@ -9,7 +9,7 @@ This folder contains:
 *The MPU6050 (gyro/accelerometer) board 
 
 ## Description 
-### MMPU6050 Board
+### MPU6050 Board
 
 MPU6050 board was designed so that it was physically small enough to fit on the joints of the fingers.
 The board connects to one of the 4 pin headers located on the main board which provide 5V, ground, SDA and SCL. 
