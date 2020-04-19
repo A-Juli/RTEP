@@ -1,0 +1,69 @@
+\t (00:02:34) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:02:34)     Journal start - Tue Mar 03 16:48:06 2020
+\t (00:02:34)         Host=RANK509-09 User=2176150J Pid=13216 CPUs=8
+\t (00:02:34) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:02:34) 
+\d (00:02:34) Design opened: H:/Realtime programming/MPU 6050/Allegro/0603design5brd.brd
+\i (00:02:34) generaledit 
+\i (00:02:35) zoom in 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom in -205.66 -118.05
+\i (00:02:35) trapsize 2270
+\i (00:02:36) zoom in 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom in -169.34 -208.86
+\i (00:02:36) trapsize 1135
+\i (00:02:36) zoom in 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom in -155.71 -247.46
+\i (00:02:36) trapsize 568
+\i (00:02:36) zoom in 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom in -276.03 -140.75
+\i (00:02:36) trapsize 284
+\i (00:03:26) zoom out 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom out 140.00 -135.08
+\i (00:03:26) trapsize 568
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 126.39 -72.64
+\i (00:03:27) trapsize 1135
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 142.27 -65.82
+\i (00:03:27) trapsize 2270
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 128.66 -34.04
+\i (00:03:27) trapsize 4541
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in 221.16 54.49
+\i (00:03:28) trapsize 2270
+\i (00:03:29) zoom in 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom in 139.42 -27.24
+\i (00:03:29) trapsize 1135
+\i (00:03:29) zoom in 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom in 139.42 -36.32
+\i (00:03:29) trapsize 568
+\i (00:03:29) zoom in 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom in 139.42 -36.31
+\i (00:03:29) trapsize 284
+\i (00:03:30) zoom in 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom in 230.24 -55.04
+\i (00:03:30) trapsize 142
+\i (00:03:30) zoom in 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom in 229.39 -53.05
+\i (00:03:30) trapsize 71
+\i (00:03:30) zoom out 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom out 229.25 -52.05
+\i (00:03:30) trapsize 142
+\i (01:10:05) exit 
+\t (01:10:06)     Journal end - Tue Mar 03 17:55:38 2020

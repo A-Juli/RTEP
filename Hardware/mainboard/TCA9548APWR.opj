@@ -1,0 +1,192 @@
+(ExpressProject "TCA9548APWR"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Amplifier.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Arithmetic.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ATOD.OLB"
+        (Type "Schematic Library"))
+      (File
+         "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\BusDriverTransceiver.olb"
+        (Type "Schematic Library"))
+      (File "..\embeddedprogramming.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\CAPSYM.OLBlck"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Connector.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Counter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Discrete.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\DRAM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ElectroMechanical.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\FIFO.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Filter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\FPGA.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Gate.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Latch.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\LineDriverReceiver.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Mechanical.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MicroController.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MicroProcessor.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc2.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc3.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscLinear.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscMemory.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscPower.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MuxDecoder.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\OPAmp.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PassiveFilter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PLD.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PROM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Regulator.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ShiftRegister.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\SRAM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Transistor.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\tca9548apwr.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Input Board File"
+       "H:\Realtime programming\TCA9548APWR\allegro\board1.brd")
+    ("Allegro Netlist Output Board File"
+       "H:\Realtime programming\TCA9548APWR\allegro\board1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("12 HEADER"
+      (FullPartName "12 HEADER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 6"
+      (FullPartName "CONN SOCKET 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10"
+      (FullPartName "HEADER 10.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PCA9546AD
+      (FullPartName "PCA9546AD.Normal")
+      (LibraryName "H:\REALTIME PROGRAMMING\EMBEDDEDPROGRAMMING.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("8 HEADER"
+      (FullPartName "8 HEADER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE BREAKDOWN"
+      (FullPartName "DIODE BREAKDOWN.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR EDGE 12"
+      (FullPartName "CONNECTOR EDGE 12.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TCA9548APWR
+      (FullPartName "TCA9548APWR.Normal")
+      (LibraryName "H:\REALTIME PROGRAMMING\EMBEDDEDPROGRAMMING.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "H:\Realtime programming")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\tca9548apwr.dsn")
+      (Path "Design Resources" ".\tca9548apwr.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\tca9548apwr.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 528"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 1743 130 697")
+        (Scroll "-52 0")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path "H:\REALTIME PROGRAMMING\TCA9548APWR\TCA9548APWR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "2176150J"))

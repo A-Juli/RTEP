@@ -1,0 +1,37 @@
+\t (00:05:35) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:05:35)     Journal start - Wed Mar 04 16:58:35 2020
+\t (00:05:35)         Host=RANK509-07 User=2176150J Pid=10336 CPUs=8
+\t (00:05:35) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:05:35) 
+\t (00:05:35) Starting new design...
+\i (00:05:35) trapsize 1
+\i (00:05:35) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged mk1
+\i (00:05:35) trapsize 1
+\i (00:05:35) trapsize 908
+\i (00:05:35) layout wizard 
+\i (00:05:37) setwindow form.brd_wizard
+\i (00:05:37) FORM brd_wizard wiz_next  
+   (00:05:37) Loading cmds.cxt 
+\i (00:05:38) FORM brd_wizard wiz_next  
+\i (00:05:38) FORM brd_wizard wiz_next  
+\i (00:05:39) FORM brd_wizard wiz_next  
+\i (00:05:45) FORM brd_wizard cancel  
+\t (00:05:45) Starting new design...
+\i (00:05:45) setwindow pcb
+\i (00:05:45) trapsize 908
+\i (00:05:45) trapsize 908
+\i (00:05:45) generaledit 
+\i (00:05:51) enved 
+\i (00:05:52) generaledit 
+\i (00:05:55) setwindow form.prfedit
+\i (00:05:55) FORM prfedit treelist  Library Paths 
+\i (00:05:57) FORM prfedit psmpath  
+\i (00:06:00) FORM prfedit padpath  
+\i (00:06:04) FORM prfedit padpath  
+\i (00:06:17) FORM prfedit psmpath  
+\i (00:06:33) FORM prfedit apply  
+\i (00:06:34) FORM prfedit done  
+\i (00:06:34) setwindow pcb
+\i (00:06:34) new 
+\i (00:06:44) newdrawfillin "mk1.brd" "Board"
+\t (00:06:44)     Journal end - Wed Mar 04 16:59:44 2020

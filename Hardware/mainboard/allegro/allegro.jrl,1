@@ -1,0 +1,619 @@
+\t (00:00:02) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Mar 09 12:14:02 2020
+\t (00:00:02)         Host=RANK509-09 User=2176150J Pid=11872 CPUs=8
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged board1
+\d (00:00:04) Design opened: H:/Realtime programming/TCA9548APWR/allegro/board1.brd
+\i (00:00:04) trapsize 966
+\i (00:00:04) trapsize 992
+\i (00:00:04) trapsize 966
+\i (00:00:04) trapsize 1013
+\i (00:00:04) trapsize 1013
+\i (00:00:05) generaledit 
+\i (00:00:07) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:08) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -757.67 -670.55
+\i (00:00:11) trapsize 506
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -775.91 -652.32
+\i (00:00:11) trapsize 1013
+\i (00:00:21) add text 
+\t (00:00:21) Pick text location.
+\i (00:00:23) pick grid -759.70 -583.43
+\t (00:00:23) last pick:  -760.00 -580.00
+\t (00:00:23) Enter text string.
+\i (00:00:27) setwindow form.mini
+\i (00:00:27) FORM mini text_block 6 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) prepopup 44.57 -950.11
+\i (00:00:36) done 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) pick -760.00 -580.00
+\i (00:00:36) setwindow pcb
+\i (00:00:36) generaledit 
+\i (00:00:39) pick grid -832.63 -544.94
+\t (00:00:39) last pick:  -830.00 -540.00
+\i (00:00:40) pick grid -362.63 822.52
+\t (00:00:40) last pick:  -360.00 820.00
+\i (00:00:42) add text 
+\t (00:00:42) Pick text location.
+\i (00:00:47) pick grid -812.37 -567.23
+\t (00:00:47) last pick:  -810.00 -570.00
+\t (00:00:47) Enter text string.
+\i (00:00:51) setwindow pcb
+\i (00:00:51) pick -810.00 -570.00
+\t (00:00:51) Enter text string.
+\i (00:00:57) pick grid -802.24 -532.79
+\t (00:00:57) last pick:  -800.00 -530.00
+\t (00:00:57) Enter text string.
+\i (00:00:59) setwindow pcb
+\i (00:00:59) prepopup -678.67 -761.71
+\i (00:01:00) oops 
+\t (00:01:00) last pick:  -810.00 -570.00
+\t (00:01:00) Pick text location.
+\i (00:01:00) prepopup -678.67 -761.71
+\i (00:01:01) done 
+\i (00:01:01) generaledit 
+\i (00:01:05) text edit 
+\i (00:01:09) setwindow form.mini
+\i (00:01:09) FORM mini subclass BOTTOM 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:01:12) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:01:13) zoom in 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in -374.79 -593.56
+\i (00:01:13) trapsize 506
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in -374.79 -593.56
+\i (00:01:14) trapsize 253
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out -374.79 -593.56
+\i (00:01:16) trapsize 506
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out -374.79 -593.56
+\i (00:01:16) trapsize 1013
+\i (00:01:18) undo 
+\i (00:01:18) trapsize 1013
+\i (00:01:18) generaledit 
+\i (00:01:19) undo 
+\i (00:01:19) trapsize 1013
+\i (00:01:19) generaledit 
+\i (00:01:21) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:01:22) undo 
+\i (00:01:22) trapsize 1013
+\i (00:01:22) generaledit 
+\i (00:01:24) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:01:25) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:01:27) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:01:28) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:01:30) setwindow form.mini
+\i (00:01:30) FORM mini subclass BOTTOM 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) add text 
+\t (00:01:32) Pick text location.
+\i (00:01:34) pick grid -818.45 -553.04
+\t (00:01:34) last pick:  -820.00 -550.00
+\t (00:01:34) Enter text string.
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick -820.00 -550.00
+\t (00:01:38) Enter text string.
+\i (00:01:39) prepopup -214.74 -792.10
+\i (00:01:40) done 
+\i (00:01:40) generaledit 
+\i (00:01:42) drag_start grid -467.98 -500.37
+\i (00:01:42) move 
+\t (00:01:42) last pick:  -820.00 -550.00
+\t (00:01:42) Pick new location for the element(s).
+\i (00:01:45) drag_stop grid -860.99 -670.54
+\i (00:01:46) generaledit 
+\i (00:01:47) drag_start grid -761.73 -646.23
+\i (00:01:47) move 
+\t (00:01:47) last pick:  -860.00 -670.00
+\t (00:01:47) Pick new location for the element(s).
+\i (00:01:48) drag_stop grid -786.04 -668.52
+\i (00:01:48) generaledit 
+\i (00:01:49) drag_start grid -771.86 -642.18
+\i (00:01:49) move 
+\t (00:01:49) last pick:  -790.00 -670.00
+\t (00:01:49) Pick new location for the element(s).
+\i (00:01:51) drag_stop grid -796.17 -666.49
+\i (00:01:51) generaledit 
+\i (00:01:52) drag_start grid -796.17 -666.49
+\i (00:01:52) move 
+\t (00:01:52) last pick:  -800.00 -670.00
+\t (00:01:52) Pick new location for the element(s).
+\i (00:01:54) drag_stop grid -832.63 -692.83
+\i (00:01:54) generaledit 
+\i (00:01:54) pick grid -14.18 -828.56
+\t (00:01:54) last pick:  -10.00 -830.00
+\i (00:01:55) prepopup -14.18 -828.56
+\i (00:01:56) pick grid -790.09 -952.14
+\t (00:01:56) last pick:  -790.00 -950.00
+\i (00:01:57) drag_start grid -484.18 -670.54
+\i (00:01:57) move 
+\t (00:01:57) last pick:  -830.00 -690.00
+\t (00:01:57) Pick new location for the element(s).
+\i (00:01:59) drag_stop grid -885.30 -688.78
+\i (00:01:59) generaledit 
+\i (00:02:00) pick grid -10.13 -879.21
+\t (00:02:00) last pick:  -10.00 -880.00
+\i (00:02:01) prepopup -16.21 -881.23
+\i (00:02:02) pick grid -196.51 -895.41
+\t (00:02:02) last pick:  -200.00 -900.00
+\i (00:02:06) island_delete 
+\t (00:02:06) To delete, pick highlighted islands(s) or navigate using Options panel.
+\i (00:02:07) pick grid -1019.01 -563.17
+\t (00:02:07) last pick:  -1020.00 -560.00
+\i (00:02:08) prepopup -654.36 -812.35
+\i (00:02:09) done 
+\i (00:02:09) generaledit 
+\i (00:02:14) save 
+\i (00:02:16) fillin yes 
+\i (00:02:16) generaledit 
+\i (00:02:27) color192 
+\i (00:02:27) generaledit 
+\i (00:02:31) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:02:33) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (00:02:34) QtSignal CVDColorTable CVDColorButton5:1 clicked
+\i (00:02:35) QtSignal CVDDisplayGroup CVDBackgroundButton clicked
+\i (00:02:39) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (00:02:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up Conductor
+\i (00:02:42) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 0 0
+\i (00:02:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:02:42) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:44) QtSignal CVDColorTable CVDColorButton0:1 clicked
+\i (00:02:45) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:45) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:02:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:02:45) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:46) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 0 0
+\i (00:02:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:02:46) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:46) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 0 1
+\i (00:02:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
+\i (00:02:46) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 1
+\i (00:02:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
+\i (00:02:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 0 2
+\i (00:02:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
+\i (00:02:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:48) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 2
+\i (00:02:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
+\i (00:02:48) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:50) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:02:52) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 5 0
+\i (00:02:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:02:52) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:52) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 5 0
+\i (00:02:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:02:52) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:54) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up Non-Conductor
+\i (00:02:57) QtSignal CVDColorTable CVDColorButton5:1 clicked
+\i (00:02:58) QtSignal CVDLayerTable VertHeader clickedCheckBox 4
+\i (00:02:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:02:59) QtSignal CVDLayerTable VertHeader clickedCheckBox 5
+\i (00:02:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:03:00) QtSignal CVDLayerTable VertHeader clickedButton 4
+\i (00:03:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:00) QtSignal CVDLayerTable VertHeader clickedButton 5
+\i (00:03:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:03:02) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:03:02) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:03:07) setwindow form.mini
+\i (00:03:07) FORM mini class PIN 
+\i (00:03:09) FORM mini subclass FILMMASKTOP 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) zoom in 1 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) zoom in 956.20 709.07
+\i (00:03:11) trapsize 506
+\i (00:03:12) zoom in 1 
+\i (00:03:12) setwindow pcb
+\i (00:03:12) zoom in 981.53 675.65
+\i (00:03:12) trapsize 253
+\i (00:03:16) island_delete 
+\i (00:03:18) fillin no 
+\i (00:03:18) generaledit 
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out 988.11 666.54
+\i (00:03:19) trapsize 506
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out 988.12 666.53
+\i (00:03:19) trapsize 1013
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out 988.12 666.54
+\i (00:03:19) trapsize 2026
+\i (00:03:20) zoom in 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom in 428.98 330.25
+\i (00:03:20) trapsize 1013
+\i (00:03:23) zoom in 1 
+\i (00:03:23) setwindow pcb
+\i (00:03:23) zoom in -897.96 -561.13
+\i (00:03:23) trapsize 506
+\i (00:03:24) drag_start grid -832.12 -506.43
+\i (00:03:24) slide 
+\t (00:03:25) Waiting for the destination pick.
+\i (00:03:25) drag_stop grid -846.30 -503.39
+\t (00:03:25) No DRC errors detected.
+\i (00:03:25) generaledit 
+\i (00:03:30) island_delete 
+\i (00:03:31) fillin yes 
+\t (00:03:31) Updating dynamic shape (1 of 1) Gnd, Boundary/Bottom @ (-1199.99 699.99) ...
+\t (00:03:31) To delete, pick highlighted islands(s) or navigate using Options panel.
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out -635.61 -277.51
+\i (00:03:32) trapsize 1013
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out -641.68 -255.22
+\i (00:03:32) trapsize 2026
+\i (00:03:34) status 
+\i (00:03:38) setwindow form.status
+\i (00:03:38) FORM status done  
+\i (00:03:39) setwindow pcb
+\i (00:03:39) pick grid -54.18 -1478.84
+\t (00:03:39) last pick:  -50.00 -1480.00
+\w (00:03:39) No highlighted island found at this location.
+\i (00:03:39) prepopup 286.17 -1300.56
+\i (00:03:40) done 
+\i (00:03:40) generaledit 
+\i (00:03:42) zoom in 1 
+\i (00:03:42) setwindow pcb
+\i (00:03:42) zoom in 22.81 474.09
+\i (00:03:42) trapsize 1013
+\i (00:03:43) zoom fit 
+\i (00:03:43) trapsize 1013
+\i (00:03:46) island_delete 
+\t (00:03:46) To delete, pick highlighted islands(s) or navigate using Options panel.
+\i (00:03:47) pick grid 964.30 688.79
+\t (00:03:47) last pick:  960.00 690.00
+\i (00:03:48) pick grid -897.45 -603.70
+\t (00:03:48) last pick:  -900.00 -600.00
+\i (00:03:50) prepopup -245.13 -374.78
+\i (00:03:51) done 
+\i (00:03:51) generaledit 
+\i (00:03:53) setwindow form.mini
+\i (00:03:53) FORM mini class PIN 
+\i (00:03:56) FORM mini subclass FILMMASKBOTTOM 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) plot setup 
+\i (00:04:10) setwindow form.fpfileplotsetup
+\i (00:04:10) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:04:16) FORM fpfileplotsetup done  
+\i (00:04:16) setwindow pcb
+\i (00:04:16) generaledit 
+\i (00:04:20) plot 
+\i (00:04:30) plotwint initialize "PDFCreator"
+\i (00:04:30) plotwint orientation 1
+\i (00:04:30) plotwint papername "Letter"
+\i (00:04:30) plotwint scale 100
+\i (00:04:30) plotwint copies 1
+\i (00:04:30) plotwint defaultsource 15
+\i (00:04:30) plotwint printquality 4000
+\i (00:04:30) plotwint color 2
+\i (00:04:30) plotwint execute
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out -850.86 674.61
+\i (00:04:32) trapsize 2026
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out -802.23 593.58
+\i (00:04:33) trapsize 4052
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out -2805.97 2038.23
+\i (00:04:33) trapsize 4541
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out -3529.38 2797.01
+\i (00:04:33) trapsize 4541
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out -3529.38 2797.01
+\i (00:04:33) trapsize 4541
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out 348.29 1571.05
+\i (00:04:33) trapsize 4541
+\i (00:04:34) zoom in 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) zoom in 130.34 426.82
+\i (00:04:34) trapsize 2270
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 134.88 431.36
+\i (00:04:35) trapsize 1135
+\i (00:05:15) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:05:16) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:05:17) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:05:18) QtSignal CVPLayerGrid CVPButtonDrcTop clicked
+\i (00:05:20) zoom in 1 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) zoom in -548.47 -576.65
+\i (00:05:20) trapsize 568
+\i (00:05:21) zoom out 1 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) zoom out -828.85 -547.14
+\i (00:05:21) trapsize 1135
+\i (00:05:21) zoom out 1 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) zoom out -831.13 -533.51
+\i (00:05:21) trapsize 2270
+\i (00:05:23) zoom in 1 
+\i (00:05:23) setwindow pcb
+\i (00:05:23) zoom in -622.26 102.18
+\i (00:05:23) trapsize 1135
+\i (00:05:23) zoom in 1 
+\i (00:05:23) setwindow pcb
+\i (00:05:23) zoom in -651.77 97.64
+\i (00:05:23) trapsize 568
+\i (00:05:23) zoom in 1 
+\i (00:05:23) setwindow pcb
+\i (00:05:23) zoom in -656.31 97.65
+\i (00:05:23) trapsize 284
+\i (00:05:24) drag_start grid -644.39 92.55
+\i (00:05:24) slide 
+\t (00:05:24) Waiting for the destination pick.
+\t (00:05:24) New cline would result in DRC error(s); retaining old cline.
+\i (00:05:25) drag_stop grid -646.09 130.01
+\t (00:05:25) No DRC errors detected.
+\i (00:05:25) generaledit 
+\i (00:05:26) drag_start grid -635.30 106.17
+\i (00:05:26) slide 
+\t (00:05:26) Waiting for the destination pick.
+\t (00:05:26) New cline would result in DRC error(s); retaining old cline.
+\i (00:05:27) drag_stop grid -629.63 133.98
+\t (00:05:27) No DRC errors detected.
+\i (00:05:27) generaledit 
+\i (00:05:28) drag_start grid -659.71 165.20
+\i (00:05:28) slide 
+\t (00:05:28) Waiting for the destination pick.
+\t (00:05:28) Start slide location has pre-existing DRC errors.
+\i (00:05:29) drag_stop grid -688.09 131.14
+\t (00:05:29) No DRC errors detected.
+\i (00:05:29) generaledit 
+\i (00:05:29) zoom out 1 
+\i (00:05:29) setwindow pcb
+\i (00:05:29) zoom out -638.14 130.01
+\i (00:05:29) trapsize 568
+\i (00:05:30) zoom out 1 
+\i (00:05:30) setwindow pcb
+\i (00:05:30) zoom out -630.20 130.00
+\i (00:05:30) trapsize 1135
+\i (00:05:30) zoom in 1 
+\i (00:05:30) setwindow pcb
+\i (00:05:30) zoom in -673.33 84.60
+\i (00:05:30) trapsize 568
+\i (00:05:30) zoom in 1 
+\i (00:05:30) setwindow pcb
+\i (00:05:30) zoom in -673.33 84.60
+\i (00:05:30) trapsize 284
+\i (00:05:31) drag_start grid -669.35 65.87
+\i (00:05:31) slide 
+\t (00:05:31) Waiting for the destination pick.
+\t (00:05:32) Start slide location has pre-existing DRC errors.
+\i (00:05:32) drag_stop grid -668.78 122.06
+\t (00:05:32) No DRC errors detected.
+\i (00:05:32) generaledit 
+\i (00:05:35) drag_start grid -646.65 157.25
+\i (00:05:35) slide 
+\t (00:05:35) Waiting for the destination pick.
+\t (00:05:35) Start slide location has pre-existing DRC errors.
+\i (00:05:35) drag_stop grid -593.86 118.09
+\t (00:05:35) No DRC errors detected.
+\i (00:05:35) generaledit 
+\i (00:05:36) pick grid -614.30 164.63
+\t (00:05:36) last pick:  -610.00 160.00
+\i (00:05:37) pick grid tgl -651.76 162.93
+\t (00:05:37) last pick:  -650.00 160.00
+\i (00:05:38) pick grid tgl -656.30 159.52
+\t (00:05:38) last pick:  -660.00 160.00
+\i (00:05:41) prepopup -649.49 152.15
+\i (00:05:42) pop dyn_option_select @:@Delete 
+\i (00:05:42) delete 
+\i (00:05:43) generaledit 
+\i (00:05:43) pick grid tgl -651.19 148.74
+\t (00:05:43) last pick:  -650.00 150.00
+\i (00:05:44) prepopup -655.16 130.01
+\i (00:05:45) pop dyn_option_select @:@Delete 
+\i (00:05:45) delete 
+\i (00:05:45) generaledit 
+\i (00:05:46) pick grid -651.19 130.58
+\t (00:05:46) last pick:  -650.00 130.00
+\i (00:05:46) prepopup -651.19 130.58
+\i (00:05:48) pop dyn_option_select @:@Delete 
+\i (00:05:48) delete 
+\i (00:05:48) generaledit 
+\i (00:05:48) drag_start grid -665.94 58.50
+\i (00:05:48) slide 
+\t (00:05:48) Waiting for the destination pick.
+\t (00:05:49) Start slide location has pre-existing DRC errors.
+\i (00:05:49) drag_stop grid -667.08 115.82
+\t (00:05:49) No DRC errors detected.
+\i (00:05:49) generaledit 
+\i (00:05:51) pick grid -554.13 217.98
+\t (00:05:51) last pick:  -550.00 220.00
+\i (00:05:53) add connect 
+\t (00:05:53) Pick first element.
+\i (00:05:53) pick grid -599.54 107.31
+\t (00:05:53) last pick:  -600.00 110.00
+\t (00:05:53) Target Symbol Pin is defined on TOP.
+\t (00:05:53) last pick:  -600.00 110.00
+\i (00:05:53) mouse_pos -594.43 162.36
+\i (00:05:55) pick grid -595.57 186.20
+\t (00:05:55) last pick:  -600.00 190.00
+\t (00:05:55) No DRC errors detected.
+\t (00:05:55) Pick first element.
+\i (00:05:58) zoom out 1 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) zoom out -576.27 132.28
+\i (00:05:58) trapsize 568
+\i (00:06:01) prepopup -592.16 110.71
+\i (00:06:02) done 
+\i (00:06:02) generaledit 
+\i (00:06:05) zoom out 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom out -653.46 219.69
+\i (00:06:05) trapsize 1135
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 670.14 -368.32
+\i (00:06:07) trapsize 568
+\i (00:06:08) zoom out 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom out 417.00 -436.43
+\i (00:06:08) trapsize 1135
+\i (00:06:08) zoom in 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom in -486.58 -509.07
+\i (00:06:08) trapsize 568
+\i (00:06:09) zoom out 1 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) zoom out -458.20 -515.88
+\i (00:06:09) trapsize 1135
+\i (00:06:09) zoom in 1 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) zoom in -433.23 -570.37
+\i (00:06:09) trapsize 568
+\i (00:06:10) zoom out 1 
+\i (00:06:10) setwindow pcb
+\i (00:06:10) zoom out -421.87 -555.61
+\i (00:06:10) trapsize 1135
+\i (00:06:17) plot 
+\i (00:06:19) plotwint initialize "PDFCreator"
+\i (00:06:19) plotwint execute
+\i (00:06:37) setwindow form.mini
+\i (00:06:37) FORM mini class PACKAGE KEEPOUT 
+\i (00:06:39) FORM mini class PIN 
+\i (00:06:40) FORM mini subclass FILMMASKBOTTOM 
+\i (00:06:42) setwindow pcb
+\i (00:06:42) plot 
+\i (00:06:43) plotwint initialize "PDFCreator"
+\i (00:06:43) plotwint execute
+\i (00:07:45) prepopup 325.05 1142.58
+\i (00:07:47) zoom out 1 
+\i (00:07:47) setwindow pcb
+\i (00:07:47) zoom out 699.65 556.84
+\i (00:07:47) trapsize 2270
+\i (00:07:47) zoom in 1 
+\i (00:07:47) setwindow pcb
+\i (00:07:47) zoom in -281.11 -351.28
+\i (00:07:47) trapsize 1135
+\i (00:07:49) zoom in 1 
+\i (00:07:49) setwindow pcb
+\i (00:07:49) zoom in -301.55 -392.14
+\i (00:07:49) trapsize 568
+\i (00:07:50) zoom out 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom out -301.55 -392.14
+\i (00:07:50) trapsize 1135
+\i (00:07:50) zoom out 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom out -306.09 -392.13
+\i (00:07:50) trapsize 2270
+\i (00:07:50) zoom in 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom in -251.59 -351.27
+\i (00:07:50) trapsize 1135
+\i (00:07:56) pick grid -1245.99 874.69
+\t (00:07:56) last pick:  -1250.00 870.00
+\i (00:07:59) plot setup 
+\i (00:08:00) setwindow form.fpfileplotsetup
+\i (00:08:00) FORM fpfileplotsetup fpplotmirror YES 
+\i (00:08:01) FORM fpfileplotsetup done  
+\i (00:08:01) setwindow pcb
+\i (00:08:01) generaledit 
+\i (00:08:04) plot 
+\i (00:08:05) plotwint initialize "PDFCreator"
+\i (00:08:05) plotwint execute
+\i (00:08:25) color192 
+\i (00:08:25) generaledit 
+\i (00:08:27) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:08:28) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:08:29) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:08:30) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up Conductor
+\i (00:08:31) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:08:31) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:08:31) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:32) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:33) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:08:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:08:33) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:33) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 1
+\i (00:08:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
+\i (00:08:33) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:34) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 2
+\i (00:08:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
+\i (00:08:34) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:35) QtSignal CVDColorTable CVDColorButton0:1 clicked
+\i (00:08:36) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 1 0
+\i (00:08:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:08:36) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:36) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 1 1
+\i (00:08:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 1
+\i (00:08:36) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor 1 2
+\i (00:08:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 2
+\i (00:08:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 2
+\i (00:08:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 2
+\i (00:08:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:38) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 1
+\i (00:08:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 1
+\i (00:08:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:08:40) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:08:40) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:08:45) plot 
+\i (00:08:50) plot setup 
+\i (00:08:51) setwindow form.fpfileplotsetup
+\i (00:08:51) FORM fpfileplotsetup fpplotmirror NO 
+\i (00:08:53) FORM fpfileplotsetup done  
+\i (00:08:53) setwindow pcb
+\i (00:08:53) generaledit 
+\i (00:08:56) plot 
+\i (00:08:58) plotwint initialize "PDFCreator"
+\i (00:08:58) plotwint execute
+\i (00:13:23) zoom in 1 
+\i (00:13:23) setwindow pcb
+\i (00:13:23) zoom in -94.94 130.03
+\i (00:13:23) trapsize 568
+\i (00:13:24) zoom out 1 
+\i (00:13:24) setwindow pcb
+\i (00:13:24) zoom out -478.62 143.65
+\i (00:13:24) trapsize 1135
+\i (00:13:25) zoom out 1 
+\i (00:13:25) setwindow pcb
+\i (00:13:25) zoom out -762.41 34.68
+\i (00:13:25) trapsize 2270
+\i (00:14:05) zoom in 1 
+\i (00:14:05) setwindow pcb
+\i (00:14:05) zoom in -621.66 425.18
+\i (00:14:05) trapsize 1135
+\i (00:14:06) zoom in 1 
+\i (00:14:06) setwindow pcb
+\i (00:14:06) zoom in -578.52 402.48
+\i (00:14:06) trapsize 568
+\i (00:14:07) zoom out 1 
+\i (00:14:07) setwindow pcb
+\i (00:14:07) zoom out -583.06 411.56
+\i (00:14:07) trapsize 1135
+\i (00:14:07) zoom out 1 
+\i (00:

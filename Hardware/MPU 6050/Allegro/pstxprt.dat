@@ -1,0 +1,180 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Feb-23-2020 at 15:47:31 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DESIGN1';
+ POST_TIME='May 11 2019 05:12:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAPACITOR NON-POL_GU-C0603_10NF':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS139@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins139@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins139@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAPACITOR NON-POL_GU-C0603_0.1N':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS155@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins155@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins155@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAPACITOR NON-POL_GU-C0603_0.1U':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS171@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins171@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins171@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAPACITOR NON-POL_GU-C0603_2.2N':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS187@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins187@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins187@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAPACITOR NON-POL_GU-C0603_0.1U':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS3276@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins3276@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins3276@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_ELECT_0_GU-C0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS775842@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins775842@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins775842@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_ELECT_0_GU-C0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS776154@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins776154@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins776154@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_GU-R0603_LED':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS3828@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins3828@discrete.\led.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins3828@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'DIODE BREAKDOWN_0_GU-SOT23_DIOD':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS778661@TCA9548APWR.DIODE BREAKDOWN_0.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins778661@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins778661@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '8 HEADER_GU-HEADER2X4_8 HEADER':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS783651@CONNECTOR.8 HEADER.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins783651@connector.\8 header.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins783651@connector.\8 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_GU-R0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS504@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins504@discrete.\resistor.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins504@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_GU-R0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS520@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins520@discrete.\resistor.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins520@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_GU-R0603_0':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS1423@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins1423@discrete.\resistor.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins1423@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_GU-R0603_0':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS1449@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins1449@discrete.\resistor.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins1449@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_GU-R0603_55':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS4068@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins4068@discrete.\resistor.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins4068@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MPU 6050_5_QFN25P50_400X400X95L':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS70@DESIGN1.MPU 6050_5.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins70@design1.\mpu 6050_5.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins70@design1.\mpu 6050_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'MIC5205_SOT23-5P95_280X130L35X4':;
+
+SECTION_NUMBER 1
+ '@DESIGN1.SCHEMATIC1(SCH_1):INS774910@SEANS LIB.MIC5205.NORMAL(CHIPS)':
+ C_PATH='@design1.schematic1(sch_1):ins774910@\seans lib\.\mic5205.normal\(chips)',
+ P_PATH='@design1.schematic1(sch_1):page1_ins774910@\seans lib\.\mic5205.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

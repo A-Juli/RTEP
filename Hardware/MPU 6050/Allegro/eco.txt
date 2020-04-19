@@ -1,0 +1,138 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  H:/Realtime programming/MPU 6050/Allegro/MPU6050mk6.brd                     |
+|                                                    Sun Feb 23 15:47:32 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3.3V         pins ADDED TO this new net
+                                 C1.2           C3.1           C6.1           
+                                 C7.1           R1.1           R2.1           
+                                 R3.1           R7.1           U1.8           
+                                 U1.13          U3.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V           pins ADDED TO this new net
+                                 C8.1           D3.3           J3.1           
+                                 J3.2           U3.1           U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AD0          pins ADDED TO this new net
+                                 R3.2           R4.1           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           C3.2           C4.2           
+                                 C6.2           C7.2           C8.2           
+                                 D1.1           D3.1           J3.3           
+                                 J3.4           R4.2           U1.1           
+                                 U1.18          U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00291       pins ADDED TO this new net
+                                 C2.1           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00303       pins ADDED TO this new net
+                                 C2.2           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00462       pins ADDED TO this new net
+                                 C4.1           U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04164       pins ADDED TO this new net
+                                 D1.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 J3.5           J3.6           R1.2           
+                                 U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 J3.7           J3.8           R2.2           
+                                 U1.24          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  H:/Realtime programming/MPU 6050/Allegro/MPU6050mk6.brd                     |
+|                                                    Sun Feb 23 15:47:32 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 8 HEADER_GU-HEADER2X4_8 HEADER
+ CAPACITOR NON-POL_GU-C0603_0.1N
+ CAPACITOR NON-POL_GU-C0603_0.1U
+ CAPACITOR NON-POL_GU-C0603_2.2N
+ CAPACITOR NON-POL_GU-C0603_10NF
+ C_ELECT_0_GU-C0603_2.2UF
+ DIODE BREAKDOWN_0_GU-SOT23_DIOD
+ LED_GU-R0603_LED
+ MIC5205_SOT23-5P95_280X130L35X4
+ MPU 6050_5_QFN25P50_400X400X95L
+ RESISTOR_GU-R0603_4.7K
+ RESISTOR_GU-R0603_0
+ RESISTOR_GU-R0603_55
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  H:/Realtime programming/MPU 6050/Allegro/MPU6050mk6.brd                     |
+|                                                    Sun Feb 23 15:47:32 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAPACITOR NON-POL_GU-C0603_10NF 
+ C2                  CAPACITOR NON-POL_GU-C0603_0.1N 
+ C3                  CAPACITOR NON-POL_GU-C0603_0.1U 
+ C4                  CAPACITOR NON-POL_GU-C0603_2.2N 
+ C6                  CAPACITOR NON-POL_GU-C0603_0.1U 
+ C7                  C_ELECT_0_GU-C0603_2.2UF 
+ C8                  C_ELECT_0_GU-C0603_2.2UF 
+ D1                  LED_GU-R0603_LED      
+ D3                  DIODE BREAKDOWN_0_GU-SOT23_DIOD 
+ J3                  8 HEADER_GU-HEADER2X4_8 HEADER 
+ R1                  RESISTOR_GU-R0603_4.7K 
+ R2                  RESISTOR_GU-R0603_4.7K 
+ R3                  RESISTOR_GU-R0603_0   
+ R4                  RESISTOR_GU-R0603_0   
+ R7                  RESISTOR_GU-R0603_55  
+ U1                  MPU 6050_5_QFN25P50_400X400X95L 
+ U3                  MIC5205_SOT23-5P95_280X130L35X4 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  H:/Realtime programming/MPU 6050/Allegro/MPU6050mk6.brd                     |
+|                                                    Sun Feb 23 15:47:32 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ J3.8                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U3.5                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      50                                        |
+|       Comp definitions added:      13                                        |
+|       Components added      :      17                                        |
+|       Slot property added   :      17                                        |
+|                                                                              |
+|   Total ECO changes reported:      97                                        |
+|------------------------------------------------------------------------------|

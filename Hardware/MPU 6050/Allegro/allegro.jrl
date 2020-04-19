@@ -1,0 +1,166 @@
+\t (00:25:22) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:25:22)     Journal start - Wed Mar 04 19:22:28 2020
+\t (00:25:22)         Host=RANK509-07 User=2176150J Pid=2864 CPUs=8
+\t (00:25:22) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession 2176150J H:\Realtime programming\TCA9548APWR\allegro\board1.brd
+\t (00:25:22) 
+\d (00:25:22) Design opened: H:/REALTIME PROGRAMMING/MPU 6050/Allegro/0603design5brd.brd
+\i (00:25:23) generaledit 
+\i (00:25:23) zoom in 1 
+\i (00:25:23) setwindow pcb
+\i (00:25:23) zoom in -187.50 45.41
+\i (00:25:23) trapsize 2270
+\i (00:25:23) zoom in 1 
+\i (00:25:23) setwindow pcb
+\i (00:25:23) zoom in -173.88 -4.53
+\i (00:25:23) trapsize 1135
+\i (00:25:24) zoom in 1 
+\i (00:25:24) setwindow pcb
+\i (00:25:24) zoom in -153.44 -13.61
+\i (00:25:24) trapsize 568
+\i (00:25:26) cmgr 
+\i (00:25:27) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:25:27) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:25:27) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:25:27) generaledit 
+\i (00:25:32) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:25:34) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:35) QtSignal m_domainSelector WS_Spacing itemClicked Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" 0:Line )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:Thru Pin" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:SMD Pin" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:Test Pin" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:Thru Via" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:BB Via" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:Test Via" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" 0:Shape )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) setwindow cmgr
+\i (00:25:39) cm showColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To >>" "0:Bond Finger" )
+\i (00:25:39) setwindow pcb
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:39) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" 0:Line )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:Thru Pin" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:SMD Pin" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:Test Pin" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:Thru Via" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:BB Via" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:Test Via" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" 0:Shape )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) setwindow cmgr
+\i (00:25:43) cm hideColumn ( kConsmgr column 78:Spacing 94:Net "95:All Layers" "1:All Layers" "0:Shape To <<" "0:Bond Finger" )
+\i (00:25:43) setwindow pcb
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:25:53) setwindow cmgr
+\i (00:25:53) cm close ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:25:53) cm exit
+\i (00:25:53) setwindow pcb
+\i (00:25:53) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:25:55) open 
+\e (00:25:55) Do you want to save the changes you made to 0603design5brd.brd?
+\i (00:25:56) fillin no 
+\i (00:26:03) fillin "H:/REALTIME PROGRAMMING/TCA9548APWR/allegro/board1.brd"
+\i (00:26:03) cd "H:/REALTIME PROGRAMMING/TCA9548APWR/allegro"
+\t (00:26:03) Opening existing design...
+\i (00:26:04) trapsize 1135
+\t (00:26:04)     Journal end - Wed Mar 04 19:23:10 2020

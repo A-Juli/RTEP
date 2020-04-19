@@ -1,0 +1,290 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Mar-04-2020 at 18:52:40 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TCA9548APWR';
+ POST_TIME='May 11 2019 05:12:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C10 'C_ELECT_0_GU-C0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787515@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787515@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787515@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAPACITOR NON-POL_GU-C0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787533@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787533@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787533@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAPACITOR NON-POL_GU-C0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777236@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777236@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777236@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_ELECT_0_GU-C0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777218@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777218@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777218@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_ELECT_0_GU-C0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777200@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777200@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777200@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_ELECT_0_GU-C0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787497@FUEL LEVEL SENSING.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787497@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787497@\fuel level sensing\.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_GU-R0603_LED':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777168@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777168@discrete.\led.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777168@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_GU-R0603_LED':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787463@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787463@discrete.\led.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787463@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'DIODE BREAKDOWN_0_GU-SOT23_DIOD':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS788059@TCA9548APWR.DIODE BREAKDOWN_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins788059@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins788059@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'DIODE BREAKDOWN_0_GU-SOT23_DIOD':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS790325@TCA9548APWR.DIODE BREAKDOWN_0.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins790325@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins790325@tca9548apwr.\diode breakdown_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER 2_GU-MOLEX2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS785222@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins785222@connector.\header 2.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins785222@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J19 'CON8_GU-HEADER8_CON8':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS803937@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins803937@connector.\con8.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins803937@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J28 'HEADER 10_GU-HEADER2X5_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS809639@CONNECTOR.HEADER 10.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins809639@connector.\header 10.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins809639@connector.\header 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J29 'HEADER 10_GU-HEADER2X5_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS810102@CONNECTOR.HEADER 10.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins810102@connector.\header 10.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins810102@connector.\header 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J30 'HEADER 10_GU-HEADER2X5_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS810540@CONNECTOR.HEADER 10.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins810540@connector.\header 10.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins810540@connector.\header 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J31 'HEADER 10_GU-HEADER2X5_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS810994@CONNECTOR.HEADER 10.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins810994@connector.\header 10.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins810994@connector.\header 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J32 'HEADER 10_GU-HEADER2X5_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS811468@CONNECTOR.HEADER 10.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins811468@connector.\header 10.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins811468@connector.\header 10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J33 'CON8_GU-HEADER8_CON8':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS816833@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins816833@connector.\con8.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins816833@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J34 'CONN SOCKET 6_GU-HEADER6_CONN S':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS820312@CONNECTOR.CONN SOCKET 6.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins820312@connector.\conn socket 6.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins820312@connector.\conn socket 6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J35 '12 HEADER_GU-HEADER6X2_12 HEADE':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS821792@CONNECTOR.12 HEADER.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins821792@connector.\12 header.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins821792@connector.\12 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_GU-R0805_55':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787383@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787383@discrete.\resistor.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787383@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_GU-R0805_55':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777084@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777084@discrete.\resistor.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777084@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_GU-R0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS779756@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins779756@discrete.\resistor.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins779756@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_GU-R0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS779772@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins779772@discrete.\resistor.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins779772@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'MIC5205_SOT23-5P95_280X130L35X4':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS777054@SEANS LIB.MIC5205.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins777054@\seans lib\.\mic5205.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins777054@\seans lib\.\mic5205.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'MIC5205_SOT23-5P95_280X130L35_1':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS787353@SEANS LIB.MIC5205.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins787353@\seans lib\.\mic5205.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins787353@\seans lib\.\mic5205.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'PCA9546AD_GU-SOIC16_PCA9546AD':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS791910@EMBEDDEDPROGRAMMING.PCA9546AD.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins791910@embeddedprogramming.\pca9546ad.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins791910@embeddedprogramming.\pca9546ad.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'PCA9546AD_GU-SOIC16_PCA9546AD':;
+
+SECTION_NUMBER 1
+ '@TCA9548APWR.SCHEMATIC1(SCH_1):INS794422@EMBEDDEDPROGRAMMING.PCA9546AD.NORMAL(CHIPS)':
+ C_PATH='@tca9548apwr.schematic1(sch_1):ins794422@embeddedprogramming.\pca9546ad.normal\(chips)',
+ P_PATH='@tca9548apwr.schematic1(sch_1):page1_ins794422@embeddedprogramming.\pca9546ad.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
