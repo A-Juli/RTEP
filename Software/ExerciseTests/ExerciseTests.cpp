@@ -12,6 +12,15 @@ void ExerciseTests::Exercise1Setup(void)
 {
     TargetAngle[0] = 90;
     NumAccel = 2;
+
+    Accel1[0] = 0;
+    Accel1[1] = 0;
+    Accel1[2] = 1;
+
+    Accel2[0] = 0;
+    Accel2[1] = 0;
+    Accel2[2] = 1;
+
 }
 
 void ExerciseTests::Exercise2Setup(void)
@@ -20,6 +29,22 @@ void ExerciseTests::Exercise2Setup(void)
     TargetAngle[1] = 90;
     TargetAngle[2] = 90;
     NumAccel = 4;
+
+    Accel1[0] = 0;
+    Accel1[1] = 0;
+    Accel1[2] = 1;
+
+    Accel2[0] = 0;
+    Accel2[1] = 0;
+    Accel2[2] = 1;
+
+    Accel3[0] = 0;
+    Accel3[1] = 0;
+    Accel3[2] = 1;
+
+    Accel4[0] = 0;
+    Accel4[1] = 0;
+    Accel4[2] = 1;
 }
 
 double ExerciseTests::Exercise1(void)
@@ -89,34 +114,6 @@ double ExerciseTests::Exercise2(void)
     Angle[2] = Angle[2]*180/pie;
 
     return DotProduct[0];
-}
-
-void ExerciseTests::setAccel1(float x, float y, float z)
-{
-    Accel1[0] = x;
-    Accel1[1] = y;
-    Accel1[2] = z;
-}
-
-void ExerciseTests::setAccel2(float x, float y,float z)
-{
-    Accel2[0] = x;
-    Accel2[1] = y;
-    Accel2[2] = z;
-}
-
-void ExerciseTests::setAccel3(float x, float y,float z)
-{
-    Accel3[0] = x;
-    Accel3[1] = y;
-    Accel3[2] = z;
-}
-
-void ExerciseTests::setAccel4(float x, float y,float z)
-{
-    Accel3[0] = x;
-    Accel3[1] = y;
-    Accel3[2] = z;
 }
 
 ExerciseTests::ExerciseTests()

@@ -21,12 +21,5 @@
 
          void Exercise1Setup(void);
          void Exercise2Setup(void);
-
-         void setAccel1(float x, float y,float z);
-         void setAccel2(float x, float y,float z);
-         void setAccel3(float x, float y,float z);
-         void setAccel4(float x, float y,float z);
-
-     private:
-        float DotProductCalc(void);
  };
+
