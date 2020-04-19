@@ -2,8 +2,6 @@
 #include <math.h>
 #include "ExerciseTests.h"
 
-// Slight change because of qt error recognising variable...
-// Will change using the std:: in a bit...
 #define pie 3.14159265
 
 using namespace std;
