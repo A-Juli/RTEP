@@ -1,7 +1,10 @@
+#ifndef EXERCISETESTS_H
+#define EXERCISETESTS_H
+
 #include <iostream>
 #include <math.h>
  
- class ExerciseTests
+class ExerciseTests
  {
      public:
          //Storage of Accelerometer data for unit test
@@ -23,3 +26,4 @@
          void Exercise2Setup(void);
  };
 
+#endif //EXERCISETESTS_H

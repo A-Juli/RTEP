@@ -51,10 +51,14 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../YAGP_GUI/main.cpp \
-		../YAGP_GUI/guiwindow.cpp moc_guiwindow.cpp
+		../YAGP_GUI/guiwindow.cpp \
+		../YAGP_GUI/newthread.cpp moc_guiwindow.cpp \
+		moc_newthread.cpp
 OBJECTS       = main.o \
 		guiwindow.o \
-		moc_guiwindow.o
+		newthread.o \
+		moc_guiwindow.o \
+		moc_newthread.o
 DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/common/unix.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/common/linux.conf \
@@ -134,8 +138,10 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/lex.prf \
-		../YAGP_GUI/YAGP_GUI.pro ../YAGP_GUI/guiwindow.h ../YAGP_GUI/main.cpp \
-		../YAGP_GUI/guiwindow.cpp
+		../YAGP_GUI/YAGP_GUI.pro ../YAGP_GUI/guiwindow.h \
+		../YAGP_GUI/newthread.h ../YAGP_GUI/main.cpp \
+		../YAGP_GUI/guiwindow.cpp \
+		../YAGP_GUI/newthread.cpp
 QMAKE_TARGET  = YAGP_GUI
 DESTDIR       = 
 TARGET        = YAGP_GUI
@@ -329,8 +335,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../YAGP_GUI/guiwindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../YAGP_GUI/main.cpp ../YAGP_GUI/guiwindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../YAGP_GUI/guiwindow.h ../YAGP_GUI/newthread.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../YAGP_GUI/main.cpp ../YAGP_GUI/guiwindow.cpp ../YAGP_GUI/newthread.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../YAGP_GUI/mainwindow.ui $(DISTDIR)/
 
 
@@ -363,13 +369,18 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -g -std=gnu++11 -Wall -W -dM -E -o moc_predefs.h /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_guiwindow.cpp
+compiler_moc_header_make_all: moc_guiwindow.cpp moc_newthread.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_guiwindow.cpp
+	-$(DEL_FILE) moc_guiwindow.cpp moc_newthread.cpp
 moc_guiwindow.cpp: ../YAGP_GUI/guiwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/pi/Desktop/RTEP/Software/ExerciseTests/build-YAGP_GUI-Desktop-Debug/moc_predefs.h -I/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -I/home/pi/Desktop/RTEP/Software/ExerciseTests/YAGP_GUI -I/usr/include/arm-linux-gnueabihf/qt5 -I/usr/include/arm-linux-gnueabihf/qt5/QtWidgets -I/usr/include/arm-linux-gnueabihf/qt5/QtGui -I/usr/include/arm-linux-gnueabihf/qt5/QtCore -I. -I/usr/include/c++/8 -I/usr/include/arm-linux-gnueabihf/c++/8 -I/usr/include/c++/8/backward -I/usr/lib/gcc/arm-linux-gnueabihf/8/include -I/usr/local/include -I/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed -I/usr/include/arm-linux-gnueabihf -I/usr/include ../YAGP_GUI/guiwindow.h -o moc_guiwindow.cpp
+
+moc_newthread.cpp: ../YAGP_GUI/newthread.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/pi/Desktop/RTEP/Software/ExerciseTests/build-YAGP_GUI-Desktop-Debug/moc_predefs.h -I/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -I/home/pi/Desktop/RTEP/Software/ExerciseTests/YAGP_GUI -I/usr/include/arm-linux-gnueabihf/qt5 -I/usr/include/arm-linux-gnueabihf/qt5/QtWidgets -I/usr/include/arm-linux-gnueabihf/qt5/QtGui -I/usr/include/arm-linux-gnueabihf/qt5/QtCore -I. -I/usr/include/c++/8 -I/usr/include/arm-linux-gnueabihf/c++/8 -I/usr/include/c++/8/backward -I/usr/lib/gcc/arm-linux-gnueabihf/8/include -I/usr/local/include -I/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed -I/usr/include/arm-linux-gnueabihf -I/usr/include ../YAGP_GUI/newthread.h -o moc_newthread.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -396,12 +407,20 @@ main.o: ../YAGP_GUI/main.cpp ../YAGP_GUI/guiwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../YAGP_GUI/main.cpp
 
 guiwindow.o: ../YAGP_GUI/guiwindow.cpp ../YAGP_GUI/guiwindow.h \
+		../YAGP_GUI/newthread.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o guiwindow.o ../YAGP_GUI/guiwindow.cpp
+
+newthread.o: ../YAGP_GUI/newthread.cpp ../YAGP_GUI/newthread.h \
+		../YAGP_GUI/guiwindow.h \
 		../ExerciseTests.cpp \
 		../ExerciseTests.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o guiwindow.o ../YAGP_GUI/guiwindow.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o newthread.o ../YAGP_GUI/newthread.cpp
 
 moc_guiwindow.o: moc_guiwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_guiwindow.o moc_guiwindow.cpp
+
+moc_newthread.o: moc_newthread.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_newthread.o moc_newthread.cpp
 
 ####### Install
 

@@ -1,55 +1,76 @@
 #include "guiwindow.h"
-#include "../ExerciseTests.cpp"
+#include "newthread.h"
 #include <QApplication>
 #include <QThread>
 
-// Creates own sleeper class inherited from QThread
-class Sleeper : public QThread
-{
-public:
-    static void msleep(unsigned long msecs){QThread::msleep(msecs);}
-};
-
-// Creates widgets, sets window size etc...
 GUIWindow::GUIWindow(QWidget *parent) : QWidget(parent)
 {
-    setFixedSize(1000,500);
+    // Setup widgets, threads, custom parameters etc..
+    setFixedSize(800,400);
+    Thread = new newThread(this);
 
-    m_button = new QPushButton("Start Program", this);
+    startButton = new QPushButton("Start Program", this);
+    //startButton->setGeometry();
+    startButton->setCheckable(true);
 
-    m_button->setGeometry(100, 100, 200, 30);
-    m_button->setCheckable(true);
+    pauseButton = new QPushButton("Pause", this);
+    //pauseButton->setGeometry();
+    pauseButton->setCheckable(true);
 
-    angle_label = new QLabel(this);
-    product_label = new QLabel(this);
+    angle_labelOne = new QLabel(this);
+    angle_labelTwo = new QLabel(this);
+    angle_labelThree = new QLabel(this);
 
-    angle_label->setText("Angle Values go here: \n\n"); // Yes I know its a poor fix but I'll resize it when I wake up lmao
-    product_label->setText("Dot Product Values go here:");
+    angle_labelOne->setText("Angle Values go here: \n\n");
+    angle_labelTwo->setText("Angle Values two go here: \n\n");
+    angle_labelThree->setText("Angle Values three go here: \n\n");
 
-    connect(m_button, SIGNAL (clicked(bool)), this, SLOT (slotStartButtonClicked(bool)));
+    // Declare a horizontal layout for first exercise
+    VerticalLayout = new QVBoxLayout;
+    HorizontalLayout = new QHBoxLayout;
+    HorizontalLayout->addWidget(angle_labelOne);
+    HorizontalLayout->addWidget(angle_labelTwo);
+    HorizontalLayout->addWidget(angle_labelThree);
+    HorizontalLayout->addWidget(startButton);
+    HorizontalLayout->addWidget(pauseButton);
+
+    setLayout(HorizontalLayout);
+
+    // Setup signals and slots
+    connect(startButton, SIGNAL (clicked(bool)),
+            this, SLOT (slotStartButtonClicked(bool)));
+    connect(Thread, SIGNAL (AngleChanged(double, double, double)),
+            this, SLOT (onAngleChanged(double, double, double)));
+    connect(pauseButton, SIGNAL (clicked(bool)),
+            this, SLOT (slotPauseButtonClicked(bool)));
 }
 
-// Implements the custom slot function in the header file
+// Allows for thread to speak/communicate to main QWidget/GUI Thread using slots
+void GUIWindow::onAngleChanged(double angleOne, double angleTwo, double angleThree) {
+    angle_labelOne->setNum(angleOne);
+    angle_labelTwo->setNum(angleTwo);
+    angle_labelThree->setNum(angleThree);
+}
+
+
+// Implementation for button slots to allow for clicking, etc...
+
 void GUIWindow::slotStartButtonClicked(bool checked)
 {
-
     if(checked){
-        m_button->setText("Stop Program");
-
-        ExerciseTests Test;   //Declare Box1 of type box
-        Test.setAccel1(0,0,1);
-        Test.setAccel2(0,0,1);
-
-        for(int q=0; q < 10; q++) {
-            Test.Exercise1();
-            angle_label->setNum(Test.Angle);
-            product_label->setNum(Test.DotProduct);
-            QWidget::repaint(); // Updates the label field every loop iteration
-            Sleeper::msleep(1000); // Updates once every 1 second based on the custom thread timer
-        }
-
-    } else {
-        m_button->setText("Run again");
+        Thread->start();
+        startButton->setEnabled(true);
+        startButton->setText("Run Again");
     }
 }
 
+void GUIWindow::slotPauseButtonClicked(bool checked)
+{
+    if(checked){
+        Thread->pause = true;
+        pauseButton->setText("Unpause");
+    } else {
+        Thread->pause = false;
+        pauseButton->setText("Pause");
+    }
+}
