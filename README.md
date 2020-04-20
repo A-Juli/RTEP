@@ -1,2 +1,5 @@
-# RTEP
-Real Time Embedded Programming group project 2020
+# Yet Another Glove project 
+
+![](Documents/graphics/logo.png
+
+
