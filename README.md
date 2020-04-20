@@ -9,6 +9,8 @@ Using Multiple accelerometer/gyro data, from the MPU6050 sensor, the angle betwe
 
 The exercises used can be found at Documentation/Exercises.pdf
 
+:star: :star: Psst... we are also live on Facebook! We have our own social media account to ensure further queries/questions are effectively answered! Check it out on: www.facebook.com/YAGPRehab and join the #YAGPRehab crew! :star: :star:
+
 ## Build Intructions 
 
 Install QT5, Qwt and wiringPi
