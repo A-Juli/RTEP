@@ -58,7 +58,7 @@ Power was provided to the board but no communication over I2C was achieved betwe
 For the software, programs had been written that allowed the raspberry pi to communicate over I2C and sample data from the MPU6050 registers using a timer. 
 Work had been started on the GUI but no significant progress had been made. The GUI itself is composed of two exercises which are simulated/'Unit Tested', and can be found out more in the documentation section of the report. 
 
-# GUI Demo
+### GUI Demo
 
 ![](Documentation/graphics/animatedGIF.gif)
 
@@ -71,5 +71,5 @@ This would mainly involve the assembly of more MPU6050 boards which is needed to
 This project and all the tools used fall under the GNU Public license. All credits and rights are reserved to their authors. Please refer to the LICENSE.md file in this repo to find out more about the rights of the software. Any future work or modifications done to this project requires to be public.
 ## Authors
 * richardajordan: Hardware and Software design 
-* basel-shehabi: Porting our code/software to Qt and using it to make the GUI. All rights reserved.
+* basel-shehabi: Porting our code/software to Qt and using it to make the GUI.
 * A-Juli
