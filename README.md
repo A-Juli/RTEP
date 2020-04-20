@@ -25,17 +25,23 @@ Clone this repository
 git clone https://github.com/A-Juli/RTEP.git
 ```
 
-To build 
+To build & Run (GUI)
 ```
 cd RTEP/Software/ExerciseTests/YAGP_GUI/
-Qmake
+qmake
 make
-```
-
-To run
-```
 ./YAGP_GUI
 ```
+
+NOTE: To clean up the files generated such as .o object files, type 'make clean' once finished running the GUI to delete diskspace.(Will require running qmake and make again)
+
+To build & Run (CLI/Terminal/Command Prompt)
+```
+cd RTEP/Software/ExerciseTests/
+make
+./Exerciseprogram
+```
+
 ## Important Notice - COVID19 lockdown
 Due to COVID19 the University of Glasgow was closed and  work on the hardware was halted as access to electronics labs have been restricted.
 However, before the lockdown various aspects of the hardware and software were completed. 
