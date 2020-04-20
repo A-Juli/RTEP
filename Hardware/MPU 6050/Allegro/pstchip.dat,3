@@ -1,0 +1,297 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Feb-23-2020 at 15:44:47}
+primitive 'CAPACITOR NON-POL_GU-C0603_10NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='gu-c0603';
+    VALUE='10nF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_GU-C0603_0.1N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='gu-c0603';
+    VALUE='0.1nF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_GU-C0603_0.1U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='gu-c0603';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_GU-C0603_2.2N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='gu-c0603';
+    VALUE='2.2nF';
+  end_body;
+end_primitive;
+primitive 'C_ELECT_0_GU-C0603_2.2UF';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_elect_0';
+    JEDEC_TYPE='gu-c0603';
+    VALUE='2.2uF';
+  end_body;
+end_primitive;
+primitive 'LED_GU-R0603_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='gu-r0603';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'DIODE BREAKDOWN_0_GU-SOT23_DIOD';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE BREAKDOWN_0';
+    JEDEC_TYPE='gu-sot23';
+    VALUE='DIODE BREAKDOWN';
+  end_body;
+end_primitive;
+primitive '8 HEADER_GU-HEADER2X4_8 HEADER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='8 HEADER';
+    JEDEC_TYPE='gu-header2x4';
+    VALUE='8 HEADER';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_GU-R0603_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='gu-r0603';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_GU-R0603_0';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='gu-r0603';
+    VALUE='0';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_GU-R0603_55';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='gu-r0603';
+    VALUE='55';
+  end_body;
+end_primitive;
+primitive 'MPU 6050_5_QFN25P50_400X400X95L';
+  pin
+    'CLKIN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'NC4':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'AUX_DA':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'AUX_CL':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VLOGIC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'AD0':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'REGOUT':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'FSYNC':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'INT':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'NC5':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'NC6':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'NC7':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'NC8':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'RESV1':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'CPOUT':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'RESV2':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'RESV3':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'SCL':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    'SDA':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    'NC9':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MPU 6050_5';
+    JEDEC_TYPE='qfn25p50_400x400x95l35x24t270';
+    VALUE='MPU 6050';
+  end_body;
+end_primitive;
+primitive 'MIC5205_SOT23-5P95_280X130L35X4';
+  pin
+    'IN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'EN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'AJ':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MIC5205';
+    JEDEC_TYPE='sot23-5p95_280x130l35x42m';
+    VALUE='MIC5219';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,30 @@
+\t (00:00:03) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Mar 11 15:43:42 2020
+\t (00:00:03)         Host=RANK509-15 User=2176150J Pid=8540 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe H:\Realtime programming\TCA9548APWR\allegro\board1.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:10) fillin yes 
+\i (00:00:10) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged board1
+\d (00:00:10) Design opened: H:/Realtime programming/TCA9548APWR/allegro/board1.brd
+\i (00:00:10) trapsize 1183
+\i (00:00:10) trapsize 1224
+\i (00:00:10) trapsize 1184
+\i (00:00:10) trapsize 1256
+\i (00:00:10) trapsize 1256
+\i (00:00:11) generaledit 
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -993.74 245.45
+\i (00:00:15) trapsize 628
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -981.18 288.14
+\i (00:00:15) trapsize 314
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out -914.64 86.63
+\i (00:00:49) trapsize 628
+\i (00:48:11) exit 
+\t (00:48:11)     Journal end - Wed Mar 11 16:31:50 2020
