@@ -11,19 +11,21 @@ Using Multiple accelerometer/gyro data, from the MPU6050 sensor, the angle betwe
 
 Install QT5, Qwt and wiringPi
 
-'''
+```
 sudo apt-get install wiringpi
 apt-get install qtdeclaratives5-dev-tools
 apt-get install libqwt-qt5-dev
-'''
+```
 
 Clone this repository 
 
-'''
+```
 git clone https://github.com/A-Juli/RTEP.git
-'''
+```
 
 To build 
+```
+```
 
 ## Authors
 
