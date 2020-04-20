@@ -56,13 +56,13 @@ Debugging could not be performed due to lack of access to the electronic labs.
 Power was provided to the board but no communication over I2C was achieved between the raspberry pi and the main board.
 ### Progress of Software (before lockdown) 
 For the software, programs had been written that allowed the raspberry pi to communicate over I2C and sample data from the MPU6050 registers using a timer. 
-Work had been started on the GUI but no significant progress had been made.
+Work had been started on the GUI but no significant progress had been made. The GUI itself is composed of two exercises which are simulated/'Unit Tested', and can be found out more in the documentation section of the report. 
 ### Future Development
 When the lockdown ends development and assembly of hardware can be continued.
-This would mainly involve the assembly of more MPU6050 boards which is needed to demonstrate a select set of exercises.
+This would mainly involve the assembly of more MPU6050 boards which is needed to demonstrate a select set of exercises. In terms of GUI, OpenGL Libraries would be used such as Mesa3D in order to track the movement of the hand in realtime as the user moves it, in a mode referred to as: Free Roam. Perhaps more customisability to the UI through using Human Computer Interface methods to get user feedback on how the UI could look nicer, and more user friendly.
 ## Licenses
 This project and all the tools used fall under the GNU Public license. All credits and rights are reserved to their authors. Please refer to the LICENSE.md file in this repo to find out more about the rights of the software
 ## Authors
 * richardajordan: Hardware and Software design 
-* basel-shehabi: Software design of GUI using Qt. All rights reserved.
+* basel-shehabi: Porting our code/software to Qt and using it to make the GUI. All rights reserved.
 * A-Juli
