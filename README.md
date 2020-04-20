@@ -57,7 +57,12 @@ Power was provided to the board but no communication over I2C was achieved betwe
 ### Progress of Software (before lockdown) 
 For the software, programs had been written that allowed the raspberry pi to communicate over I2C and sample data from the MPU6050 registers using a timer. 
 Work had been started on the GUI but no significant progress had been made. The GUI itself is composed of two exercises which are simulated/'Unit Tested', and can be found out more in the documentation section of the report. 
+
+# GUI Demo
+
 ![](Documentation/graphics/animatedGIF.gif)
+
+As shonw in the gif, the user can select between which exercise to simulate to show the movement of the hand in terms of angle measurements. The user can also pause the simulation at a certain point in time in order to choose specific values as to where to orient the hand.
 
 ### Future Development
 When the lockdown ends development and assembly of hardware can be continued.
