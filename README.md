@@ -33,7 +33,7 @@ make
 ./YAGP_GUI
 ```
 
-NOTE: To clean up the files generated such as .o object files, type 'make clean' once finished running the GUI to delete diskspace.(Will require running qmake and make again)
+NOTE: To clean up the files generated such as .o object files, type 'make clean' once finished running the GUI to delete diskspace. (Will require running qmake and make again)
 
 To build & Run (CLI/Terminal/Command Prompt)
 ```
