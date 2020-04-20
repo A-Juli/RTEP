@@ -60,8 +60,9 @@ Work had been started on the GUI but no significant progress had been made.
 ### Future Development
 When the lockdown ends development and assembly of hardware can be continued.
 This would mainly involve the assembly of more MPU6050 boards which is needed to demonstrate a select set of exercises.
-
+### Licenses
+This project and all the tools used fall under the GNU Public license. All credits and rights are reserved to their authors. Please refer to the LICENSE.md file in this repo to find out more about the rights of the software
 ## Authors
 * richardajordan: Hardware and Software design 
-* basel-shehabi: Software design of GUI
+* basel-shehabi: Software design of GUI using Qt. All rights reserved.
 * A-Juli
