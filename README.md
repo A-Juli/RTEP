@@ -7,7 +7,7 @@
 Yet Another Glove Project is a wearable glove that is capable of supporting the physiotherapy process by aiding the user in completing exercises for improving finger and tendon strength. 
 Using Multiple accelerometer/gyro data, from the MPU6050 sensor, the angle between joint on the hand can be determined and the application will provide the user with feedback showing how close they are to the required angles that the exercise requires. 
 
-The exercise used can be found at Documentation/Exercises.pdf
+The exercises used can be found at Documentation/Exercises.pdf
 
 ## Build Intructions 
 
