@@ -27,6 +27,14 @@ git clone https://github.com/A-Juli/RTEP.git
 
 To build 
 ```
+cd RTEP/Software/ExerciseTests/YAGP_GUI/
+Qmake
+make
+```
+
+To run
+```
+./YAGP_GUI
 ```
 ## Important Notice - COVID19 lockdown
 Due to COVID19 the University of Glasgow was closed and  work on the hardware was halted as access to electronics labs have been restricted.
