@@ -57,6 +57,8 @@ Power was provided to the board but no communication over I2C was achieved betwe
 ### Progress of Software (before lockdown) 
 For the software, programs had been written that allowed the raspberry pi to communicate over I2C and sample data from the MPU6050 registers using a timer. 
 Work had been started on the GUI but no significant progress had been made. The GUI itself is composed of two exercises which are simulated/'Unit Tested', and can be found out more in the documentation section of the report. 
+![](Documentation/graphics/animatedGIF.gif)
+
 ### Future Development
 When the lockdown ends development and assembly of hardware can be continued.
 This would mainly involve the assembly of more MPU6050 boards which is needed to demonstrate a select set of exercises. In terms of GUI, OpenGL Libraries would be used such as Mesa3D in order to track the movement of the hand in realtime as the user moves it, in a mode referred to as: Free Roam. Perhaps more customisability to the UI through using Human Computer Interface methods to get user feedback on how the UI could look nicer, and more user friendly.
