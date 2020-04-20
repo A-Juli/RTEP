@@ -46,6 +46,6 @@ When the lockdown ends development and assembly of hardware can be continued.
 This would main involve the assembly of more MPU6050 boards which is needed to demonstrate a select set of exercises.
 
 ## Authors
-* richardajordan
-* basel-shehabi
+* richardajordan: Hardware and Software design 
+* basel-shehabi: Software design of GUI
 * A-Juli
