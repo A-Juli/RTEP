@@ -64,7 +64,7 @@ Work had been started on the GUI but no significant progress had been made. The 
 
 ![](Documentation/graphics/animatedGIF.gif)
 
-As shonw in the gif, the user can select between which exercise to simulate to show the movement of the hand in terms of angle measurements. The user can also pause the simulation at a certain point in time in order to choose specific values as to where to orient the hand.
+As shown in the gif, the user can select between which exercise to simulate to show the movement of the hand in terms of angle measurements. The user can also pause the simulation at a certain point in time in order to choose specific values as to where to orient the hand.
 
 ### Future Development
 When the lockdown ends development and assembly of hardware can be continued.
